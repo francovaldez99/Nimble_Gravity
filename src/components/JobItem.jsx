@@ -31,7 +31,7 @@ export default function JobItem({ title, id, datosPostulacion }) {
             }
             return response.json();
           })
-          .then((res) => {
+          .then(() => {
             setInputRepo("");
             setCorrectFetching(true);
           })
